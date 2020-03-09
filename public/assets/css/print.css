@@ -1,0 +1,16 @@
+body {
+  font-size: 13px;
+}
+
+img,
+.logo,
+.menu {
+  display: none;
+}
+
+.printContent{
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  height: 40px;
+}

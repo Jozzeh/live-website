@@ -1,0 +1,180 @@
+#aboutIntroTitle {
+  margin-top: 25px;
+}
+#aboutIntroText{
+  padding-bottom: 25px;
+}
+
+.skillName {
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+.skill,
+.role {
+  display: inline-block;
+  background-color: #f5f5f5;
+  border: solid 1px #fff;
+  margin: 5px 15px 0 0;
+}
+
+.role {
+  background-color: #444;
+  color: #fff;
+}
+
+.proficiency {
+  height: 2px;
+  background-color: #666;
+}
+
+#aboutJobsTitle,
+#aboutSkillsTitle {
+  margin-bottom: 15px;
+}
+
+.jobsWrapper {
+  padding: 15px;
+  border: solid 1px #f1f1f1;
+  margin-bottom: 25px;
+}
+.jobsHeader,
+.jobsContent {
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.jobsHeader {
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 10px;
+}
+
+.jobsTitle,
+.jobsYear,
+.jobsCompany,
+.jobsResponsibility,
+.jobsTech {
+  width: 100%;
+  padding-bottom: 5px;
+}
+.jobsYear,
+.jobsCompany {
+  font-size: 14px;
+  color: #666;
+}
+
+.jobsTechText {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+.techstack {
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px #f1f1f1;
+}
+
+.jobsResponsibilityText p {
+  margin-top: 0;
+  font-size: 16px;
+}
+.jobsResponsibility,
+.jobsTech {
+  margin: 10px 0;
+  width: 100%;
+}
+.jobsResponsibilityTitle,
+.jobsTechTitle {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #ccc;
+}
+
+#aboutEduTitle .small{
+  font-size: 12px;
+}
+#aboutEduText {
+  display: block;
+  margin: 25px 0;
+}
+.eduWrapper{
+  width: 100%;
+  border: solid 1px #f1f1f1;
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.eduInversed {
+  background-color: #444;
+  color: #f5f5f5;
+}
+.eduInversed a, .eduInversed h3 {
+  color: #f5f5f5;
+}
+.eduWrapper a, .eduWrapper p {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 900px) {
+  #aboutIntroTitle {
+    margin-top: 0;
+  }
+  #aboutIntroText{
+    padding-bottom: 0px;
+  }
+  #aboutJobsTitle {
+    margin-bottom: 25px;
+  }
+
+  .jobsHeader {
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  }
+  .jobsTitle,
+  .jobsYear,
+  .jobsCompany {
+    padding-bottom: 0;
+  }
+  .jobsYear,
+  .jobsCompany {
+    width: 120px;
+  }
+  .jobsTitle {
+    width: auto;
+    flex: 1;
+  }
+  .jobsTitle {
+    text-align: center;
+  }
+  .jobsCompany {
+    text-align: right;
+  }
+
+  .jobsResponsibility,
+  .jobsTech {
+    width: calc(50% - 5px);
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  .jobsResponsibility {
+    margin-right: 5px;
+  }
+  .jobsHeader,
+  .jobsContent {
+    padding: 0 10px 10px 10px;
+    width: calc(100% - 20px);
+  }
+
+  #aboutEduText {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .eduWrapper{
+    width: calc(33% - 15px);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+}

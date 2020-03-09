@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif, Arial;
+  font-display: "optional";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  color: #444;
+}
+
+.small {
+  font-size: 14px;
+}
+.grey {
+  color: #666;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #000;
+  line-height: "normal";
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #333;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.flexContainerPerc {
+  width: 100%;
+}
+.flexContent {
+  min-width: 100vw;
+  padding: 0 15px;
+}
+.printContent{
+  display: none;
+}
+
+.leftColumn,
+.rightColumn {
+  width: 100%;
+}
+
+.panel {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16),
+    0 0 2px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* ***** MENU & LOGO ***** */
+.menuFullWidth {
+  border-bottom: solid 1px #f1f1f1;
+  -webkit-box-shadow: 0px -30px 40px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -30px 40px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -30px 40px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+}
+.menuContainer {
+  display: block;
+  align-items: center;
+}
+.menu {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.menu a {
+  padding: 15px 10px;
+  font-size: 14px;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+}
+.logo img {
+  max-width: 75px;
+}
+
+.extraMargin25 {
+  margin: 25px 0;
+}
+.extraTopMargin25 {
+  margin-top: 25px;
+}
+.extraBottomMargin25 {
+  margin-bottom: 25px;
+}
+.centered {
+  text-align: center;
+}
+
+.dottedFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dottedLine, .fullLine {
+  width: 50px;
+  border-color: #444;
+  border-width: 1px;
+}
+.inversedLine {
+  border-color: #f1f1f1;
+}
+
+.lineFlex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lineText {
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.greyWrapper {
+  padding: 25px 0;
+  background-color: #f5f5f5;
+}
+.greyWrapperNoBottom{
+  padding: 25px 0 0 0;
+}
+
+/* ***** FOOTER ***** */
+footer {
+  font-size: 10px;
+  color: #666;
+  border-top: solid 1px #f1f1f1;
+  margin: 25px 0;
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  /* ***** SIMPLE GRID ***** */
+  .half {
+    width: 50%;
+    margin-right: 15px;
+  }
+  .oneThird {
+    width: 33%;
+    margin-right: 15px;
+  }
+  .twoThird {
+    width: 66%;
+    margin-right: 15px;
+  }
+  .oneFourth {
+    width: 25%;
+    margin-right: 15px;
+  }
+  .threeFourth {
+    width: 75%;
+    margin-right: 15px;
+  }
+  .rightColumn {
+    flex: 1;
+    display: flex;
+  }
+
+  .flexEnd {
+    align-items: flex-end;
+  }
+  .extraMargin25 {
+    margin: 40px 0;
+  }
+  .extraTopMargin25 {
+    margin-top: 40px;
+  }
+  .extraBottomMargin25 {
+    margin-bottom: 40px;
+  }
+
+  .flexContainer {
+    flex-wrap: nowrap;
+  }
+  .flexContent {
+    width: 900px;
+    min-width: auto;
+    padding: 0;
+  }
+  .smallFlexContent {
+    width: 680px;
+    min-width: auto;
+    padding: 0;
+  }
+  .menuFullWidth {
+    position: fixed;
+    background-color: #fff;
+    z-index: 5;
+  }
+  .menuContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: left;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+  .menu {
+    width: auto;
+    text-align: right;
+    padding: 0;
+  }
+  .menu a {
+    padding: 15px;
+  }
+  .menuShiv {
+    padding-top: 90px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    text-align: left;
+  }
+  .copyright,
+  .links {
+    width: 50%;
+    padding: 0 5px;
+  }
+  .links {
+    text-align: right;
+  }
+}

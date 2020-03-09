@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "txt": "Being able to condense complex matter in simple words or analogies, is the mark of a great developer.",
+      "tech": "Dev Life",
+      "pubdate": "2020-03-07"
+    },
+    {
+      "txt": "When in meeting with developers, remember each dev has its question quota...",
+      "tech": "Dev Life",
+      "pubdate": "2020-03-01"
+    },
+    {
+      "txt": "A simple but effective static site generator",
+      "tech": "NextJS",
+      "pubdate": "2020-02-18"
+    },
+    {
+      "txt": "Developers need to deal with a fast expanding ecosystem of ever growing possibilities.",
+      "tech": "Dev Life",
+      "pubdate": "2020-02-03"
+    },
+    {
+      "txt": "Giving talks made me hone vital soft skills for the work place.",
+      "tech": "Dev life",
+      "pubdate": "2020-01-24"
+    },
+    {
+      "txt": "Do not change state during animation",
+      "tech": "React Native",
+      "pubdate": "2020-01-05"
+    },
+    {
+      "txt": "If state changes need to take place, do it once. Redux component state?",
+      "tech": "React Native",
+      "pubdate": "2019-12-17"
+    },
+    {
+      "txt": "Redux can be used in multiple techs.",
+      "tech": "Native / React / RN",
+      "pubdate": "2019-11-22"
+    },
+    {
+      "txt": "Compile a build to see app performance",
+      "tech": "React Native",
+      "pubdate": "2020-10-16"
+    },
+    {
+      "txt": "When using Redux, give variable state to only one object.",
+      "tech": "React Native",
+      "pubdate": "2020-09-29"
+    },
+    {
+      "txt": "A step to the side, is not a step backwards",
+      "tech": "Soft skills",
+      "pubdate": "2019-09-01"
+    }
+  ]
+}
