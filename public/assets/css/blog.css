@@ -134,10 +134,8 @@
   width: 100%;
 }
 .articleImageFlexed{
-  margin-right: 15px;
   margin-bottom: 15px;
-  max-width: calc(50% - 15px);
-  width: auto;
+  max-width: 100%;
 }
 
 .articleUnordenedList ul{
@@ -181,5 +179,12 @@
   }
   .articleImagePortrait {
     max-width: 600px;
+  }
+
+  .articleImageFlexed{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    max-width: calc(50% - 15px);
+    width: auto;
   }
 }
