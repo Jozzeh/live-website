@@ -1,4 +1,4 @@
-# Jos De berdt Portfolio / CV
+# Jos De Berdt Portfolio / CV
 
 The project uses NextJS to render a static website and is just my portfolio / CV website.  
 Each day a cronjob runs on the server to pull in the latest changes on the master branch.  
