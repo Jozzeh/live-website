@@ -18,7 +18,7 @@ Want to change something? Feel free to make a pull request.
 - Git clone it
 - Open a terminal in the directory
 - command: npm run dev  
-  (For devevelopment)  
+  (For development)  
   npm run build   
   npm run start  
   (For production)  
