@@ -23,7 +23,7 @@ Want to change something? Feel free to make a pull request.
   npm run start  
   (For production)  
   
-## How is this the server configured?
+## How is the server configured?
 I use only a few technologies on the server side.  
 - A firewall (with limited ports open for Nginx & SSH)
 - SSH key protected
@@ -31,3 +31,4 @@ I use only a few technologies on the server side.
 - NPM & NodeJS
 - PM2 (for process management)  
 - cron job (runs at night to pull in changes, rebuild the static site, reload the npm process)
+- DNS setup (not on server, but did that as well)
