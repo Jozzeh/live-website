@@ -28,6 +28,7 @@ I use only a few technologies on the server side.
 - A firewall (with limited ports open for Nginx & SSH)
 - SSH key protected
 - Nginx
+- HTTPS certificates through letsencrypt
 - NPM & NodeJS
 - PM2 (for process management)  
 - cron job (runs at night to pull in changes, rebuild the static site, reload the npm process)
