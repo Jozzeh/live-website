@@ -1,11 +1,17 @@
 # live-website
-Git repo of my online website, hosted at josdeberdt.be
 
-The project uses NextJS to render a static website.  
-Each day a cronjob runs on the server to pull in the latest changes on the master branch.
+The project uses NextJS to render a static website and is just my portfolio / CV website.  
+Each day a cronjob runs on the server to pull in the latest changes on the master branch.  
+
+The website has been created using the KISS principle (Keep It Simple Stupid) and simple it is.   
+Using practically only white, grey and black ... The website was build quite fast.   
+
+If you would have a look at the css, then you'll notice I have a global css file and some page/component specific css files.  
+The naming of classes in the page/component specific css files are : <component><TypeComponent><Action>.  
+In a way, the methodology does is similar to BEM, but does not follow the BEM specifications to the letter.  
 
 See the website live at https://www.josdeberdt.be  
-Want to change something? Feel free to make a pull request...
+Want to change something? Feel free to make a pull request.
 
 ## How to copy this website?
 - Git clone it
