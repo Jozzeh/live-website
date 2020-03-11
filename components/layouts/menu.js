@@ -9,7 +9,7 @@ const Menu = () => (
     <div className="logo">
       <img loading="lazy" src="/assets/imgs/jos-de-berdt-logo.jpg" alt="Jos De Berdt"/>
     </div>
-    <div className="menu">
+    <nav className="menu">
       <Link href="/">
         <a>Home</a>
       </Link>
@@ -19,7 +19,7 @@ const Menu = () => (
       <Link href="/blog">
         <a>Blog</a>
       </Link>
-    </div>
+    </nav>
   </div>
 );
 

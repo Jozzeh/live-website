@@ -38,13 +38,14 @@ export default function Post() {
         <Flex extraClass="menuFullWidth">
           <Menu />
         </Flex>
+        <article>
+          <Flex extraContentClass="menuShiv">
+            <h1 className="articleHeading">{articleData[0].title}</h1>
+            <LineText txt={<time datetime={articleData[0].pubdate}>{articleData[0].pubdate}</time>} />
+          </Flex>
 
-        <Flex extraContentClass="menuShiv">
-          <h1 className="articleHeading">{articleData[0].title}</h1>
-          <LineText txt={articleData[0].pubdate} />
-        </Flex>
-
-        <Article articleData={articleData} />
+          <Article articleData={articleData} />
+        </article>
 
         <Flex>
           <Footer />

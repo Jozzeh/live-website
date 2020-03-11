@@ -22,7 +22,7 @@ const Featured = () => {
             <div className="featuredText">
               <h2 className="featuredTitle">{feat1.title}</h2>
               <div className="featuredIntro">{feat1.intro}</div>
-              <div className="featuredPubDate">{feat1.pubdate}</div>
+              <div className="featuredPubDate"><time datetime={feat1.pubdate}>{feat1.pubdate}</time></div>
             </div>
           </div>
         </a>
@@ -31,7 +31,7 @@ const Featured = () => {
             <div className="featuredText">
               <div className="featuredTitle">{feat2.title}</div>
               <div className="featuredIntro">{feat2.intro}</div>
-              <div className="featuredPubDate">{feat2.pubdate}</div>
+              <div className="featuredPubDate"><time datetime={feat2.pubdate}>{feat2.pubdate}</time></div>
             </div>
           </div>
         </a>

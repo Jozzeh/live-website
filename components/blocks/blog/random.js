@@ -25,7 +25,7 @@ const Random = () => {
             <div key={i} className="randomList">
               <div className="randomListText">{row.txt}</div>
               <div className="randomListExtra">
-                {row.pubdate} - {row.tech}
+                <time datetime={row.pubdate}>{row.pubdate}</time> - {row.tech}
               </div>
             </div>
           );
