@@ -3,7 +3,7 @@
 The project uses NextJS to render a static website and is just my portfolio / CV website.  
 Each day a cronjob runs on the server to pull in the latest changes on the master branch.  
 
-The website has been created using the KISS principle (Keep It Simple Stupid) and simple it is.   
+The website has been created using the KISS principle (Keep It Simple Stupid) and simple it is (and possibly stupid as well, but you be the judge of that).   
 Using practically only white, grey and black ... The website was build quite fast.   
 
 If you would have a look at the css, then you'll notice I have a global css file and some page/component specific css files.  
