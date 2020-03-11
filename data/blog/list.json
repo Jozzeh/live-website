@@ -10,13 +10,21 @@
       "featured": 1
     },
     {
+      "title": "Notable projects",
+      "intro": "Have a look at some of the projects I am proud to show.",
+      "image": "/assets/imgs/blog/projects/front-article.jpg",
+      "handle": "notable-projects",
+      "linktxt": "Check some of my projects",
+      "pubdate": "2020-03-10",
+      "featured": 2
+    },
+    {
       "title": "KISS in development",
       "intro": "Keep your project light and reap the rewards.",
       "image": "/assets/imgs/blog/kiss/intro-to-kiss-dev.jpg",
       "handle": "kiss-development",
       "linktxt": "Want to kiss?",
-      "pubdate": "2020-01-18",
-      "featured": 2
+      "pubdate": "2020-01-18"
     },
     {
       "title": "Mobile web specialist",

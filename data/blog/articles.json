@@ -90,6 +90,137 @@
       ]
     },
     {
+      "handle": "notable-projects",
+      "meta": {
+        "title": "Notable projects - Jos De Berdt",
+        "description": "See the coolest and most rewarding projects that Jos De Berdt made for small and big companies."
+      },
+      "pubdate": "2020-03-10",
+      "title": "Some of my projects and why I think they are great",
+      "article": [
+        {
+          "type":"paragraph",
+          "data": "In my experience as webdeveloper, I created and co-created a lot of projects. Some were more challenging than others."
+        },
+        {
+          "type":"paragraph",
+          "data": "Here are a few projects I am quite proud of."
+        },
+        {
+          "type": "image-gallery",
+          "data": {
+            "imgs": [
+              "/assets/imgs/blog/projects/vanheedeplus1.png",
+              "/assets/imgs/blog/projects/vanheedeplus2.png"
+            ],
+            "alt": "VanheedePlus Mobile application."
+          }
+        },
+        {
+          "type":"heading",
+          "data": "VanheedePlus: First React Native mobile app"
+        },
+        {
+          "type":"paragraph",
+          "data": "I co-created the VanheedePlus application with 1 other front-end developer en 2 back-end developers. The project was very interesting as it was my first React Native project to go to the App and Play store. We used Azure and appcenter to send notifications, test, build & deploy the app."
+        },
+        {
+          "type":"paragraph",
+          "data": "Although the app itself is not very big, I really liked this project because of the end result:"
+        },
+
+        {
+          "type":"unordened-list",
+          "data": [
+            "A working app which delighted the client and end-users",
+            "Automated testing, building & deployment",
+            "Everything is nicely documented",
+            "Huge project velocity"
+          ]
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Link to the project on the App store",
+            "link": "https://apps.apple.com/us/app/vanheede-plus/id1490442195"
+          }
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/projects/futurn-project.jpg",
+            "alt": "Screenshot of the futurn website"
+          }
+        },
+        {
+          "type":"heading",
+          "data": "Futurn: Website with an impact"
+        },
+        {
+          "type":"paragraph",
+          "data": "If I was to define success of a website by amount of visitors... then this is not my most succesfull website but I do believe it is one that had a good impact on the client."
+        },
+        {
+          "type":"paragraph",
+          "data": "Before I created this website, the company website was not bringing in a lot of leads. It's hard to get first place in google if you operate in the real estate industry. So I took some time to get the on-page SEO right. The result?"
+        },
+        {
+          "type":"unordened-list",
+          "data": [
+            "Multiple pages on first place in Google",
+            "10 times more visitors",
+            "15 times more leads",
+            "One very happy company"
+          ]
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Go to the Futurn real estate site",
+            "link": "https://www.futurn.com"
+          }
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/projects/architecture-example.png",
+            "alt": "Example of a very simple service-based API architecture"
+          }
+        },
+        {
+          "type":"heading",
+          "data": "Architectures: Envision, setup, work, ..."
+        },
+        {
+          "type":"paragraph",
+          "data": "I've worked with some architectures and created my own architectures. It has given me a ton of insight on how to approach a project and evaluate it's size. Here are some architectures I know:"
+        },
+        {
+          "type":"unordened-list",
+          "data": [
+            "Monolith",
+            "Service based",
+            "Microservices",
+            "Event driven",
+            "JAM / API driven",
+            "A mix of some of the above"
+          ]
+        },
+        {
+          "type":"paragraph",
+          "data": "While the monolith is usually enough for most projects, I did have a few projects which required more than just one service."
+        },
+        {
+          "type":"paragraph",
+          "data": "Some developers will say that monoliths are good because they are not complex and this is true. However, when creating an architecture, it's the job of a developer to make sure the architecture is simple. In other words, the project does not dictate the complexity of the architecture."
+        },
+        {
+          "type":"paragraph",
+          "data": "Want to discuss architectures? Contact me through LinkedIn or Github."
+        }
+      ]
+    },
+    {
       "handle": "kiss-development",
       "meta": {
         "title": "KISS methodology - Jos De Berdt",
