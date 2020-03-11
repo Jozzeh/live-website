@@ -2,7 +2,7 @@ import RandomList from "../../../data/blog/random";
 import { useState, useEffect } from "react";
 
 const Random = () => {
-  const randomNumbers = 6;
+  const randomNumbers = 8;
   const [randomPage, setRandomPage] = useState(1);
   const [activeRandoms, setActiveRandoms] = useState(
     RandomList.data.slice(0, randomNumbers)
