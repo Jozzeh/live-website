@@ -5,13 +5,11 @@ const Blogs = props => (
       style={{ backgroundImage: "url(" + props.data.image + ")" }}
     ></div>
     <div className="blogEntryTextWrap">
-      <a href={"/blog/" + props.data.handle}>
         <div className="blogEntryText">
-          <h2 className="blogEntryTitle">{props.data.title}</h2>
-          <div className="blogEntryDescription">{props.data.intro}</div>
+          <h2 className="blogEntryTitle"><a href={"/blog/" + props.data.handle}>{props.data.title}</a></h2>
+          <div className="blogEntryDescription"><a href={"/blog/" + props.data.handle}>{props.data.intro}</a></div>
         </div>
         <div className="blogEntryDate">{props.data.pubdate}</div>
-      </a>
     </div>
   </div>
 );
