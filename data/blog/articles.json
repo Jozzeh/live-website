@@ -208,6 +208,10 @@
         },
         {
           "type":"paragraph",
+          "data": "* Before proceeding, I realise this might raise some questions, remarks or concerns with people. However, not that I am not talking about any programming language or technology in particular. Architectures can/should be language-agnostic."
+        },
+        {
+          "type":"paragraph",
           "data": "While the monolith is usually enough for most projects, I did have a few projects which required more than just one service."
         },
         {
@@ -216,7 +220,7 @@
         },
         {
           "type":"paragraph",
-          "data": "Want to discuss architectures? Contact me through LinkedIn or Github."
+          "data": "Want to discuss high level architectures? Contact me through LinkedIn or Github."
         }
       ]
     },
