@@ -18,7 +18,8 @@ const Featured = () => {
       <div id="featuredHeading">Popular</div>
       <Doublecol columnClass="twoThird">
         <a href={"/blog/" + feat1.handle}>
-          <div id="featuredFirst" style={{"backgroundImage": "url(" +feat1.image + ")"}}>
+          <div id="featuredFirst" >
+            <img src={feat1.image} alt={"Image of the article - " + feat1.title} />
             <div className="featuredText">
               <h2 className="featuredTitle">{feat1.title}</h2>
               <div className="featuredIntro">{feat1.intro}</div>
@@ -27,7 +28,8 @@ const Featured = () => {
           </div>
         </a>
         <a href={"/blog/" + feat2.handle}>
-          <div id="featuredSecond" style={{"backgroundImage": "url(" +feat2.image + ")"}}>
+          <div id="featuredSecond">
+          <img src={feat2.image} alt={"Image of the article - " + feat2.title} />
             <div className="featuredText">
               <div className="featuredTitle">{feat2.title}</div>
               <div className="featuredIntro">{feat2.intro}</div>

@@ -8,7 +8,6 @@ import HomePerson from "../components/blocks/home/person";
 import Homeintro from "../components/blocks/home/intro";
 import Homeoutro from "../components/blocks/home/outro";
 
-
 const Index = () => (
   <>
     <Top />
