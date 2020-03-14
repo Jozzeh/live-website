@@ -25,7 +25,7 @@ export default function Blog() {
         <Menu />
       </Flex>
 
-      <div className="greyWrapper greyWrapperNoBottom menuShiv">
+      <div id="content" className="greyWrapper greyWrapperNoBottom menuShiv">
         <Flex>
           <h1 id="blogIntroHeading">Article archive</h1>
           <LineText extraMargin={1} txt="in front-end experience"/>

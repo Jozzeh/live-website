@@ -86,6 +86,30 @@ strong {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 }
 
+/* ***** ACCESSIBILITY ***** */
+a.skip-main {
+  left:-999px;
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+  background:white;
+  color:blue;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow:auto;
+  margin: 10px;
+  padding:5px;
+  font-size:1.4em;
+  z-index:999;
+}
+
 /* ***** MENU & LOGO ***** */
 .menuFullWidth {
   border-bottom: solid 1px #f1f1f1;

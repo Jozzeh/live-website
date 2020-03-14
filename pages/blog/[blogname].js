@@ -29,7 +29,7 @@ export default function Post() {
         <Flex extraClass="menuFullWidth">
           <Menu />
         </Flex>
-        <article>
+        <article id="content">
           <Flex extraContentClass="menuShiv">
             <h1 className="articleHeading">{articleData[0].title}</h1>
             <LineText txt={<time dateTime={articleData[0].pubdate}>{articleData[0].pubdate}</time>} />

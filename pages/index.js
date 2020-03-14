@@ -21,7 +21,7 @@ const Index = () => (
       <Menu />
     </Flex>
     <Hero />
-    <Flex>
+    <Flex extraID="content">
       <HomePerson />
       <Homeintro />
     </Flex>

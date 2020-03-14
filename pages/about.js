@@ -27,7 +27,7 @@ export default function About() {
         <Menu />
         <div className="printContent">Jos De Berdt</div>
       </Flex>
-      <Flex extraContentClass="menuShiv">
+      <Flex extraID="content" extraContentClass="menuShiv">
         <Doublecol flexEnd="1" columnClass="twoThird">
           <Aboutintro />
           <div className="centered">
