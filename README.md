@@ -18,7 +18,7 @@ Want to change something? Feel free to make a pull request.
 ## How to copy/alter this website?
 - Git clone it
 - Open a terminal in the directory
-- command: 
+- command:    
   (For development)  
   npm run dev  
   gulp watch  
