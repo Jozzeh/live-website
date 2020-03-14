@@ -6,9 +6,7 @@ import Top from "../../components/layouts/top";
 import Flex from "../../components/layouts/flex";
 import Menu from "../../components/layouts/menu";
 import Footer from "../../components/layouts/footer";
-import Line from "../../components/layouts/line";
 import LineText from "../../components/layouts/linetext";
-import Doublecol from "../../components/layouts/doublecol";
 
 import Article from "../../components/blocks/blog/article";
 
