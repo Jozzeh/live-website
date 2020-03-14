@@ -6,18 +6,21 @@ Each day a cronjob runs on the server to pull in the latest changes on the maste
 The website has been created using the KISS principle (Keep It Simple Stupid) and simple it is (and possibly stupid as well, but you be the judge of that).   
 Using practically only white, grey and black ... The website was build quite fast.   
 
-If you would have a look at the css, then you'll notice I have a global css file and some page/component specific css files.  
+If you would have a look at the css, then you'll notice I have dev-assets folder and assets folder. In the dev-assets you'll find the unminified global css files and page/component specific css files.  
+Gulp is used to minify and concat most files in the assets folder.  
 The naming of classes in the page/component specific css files are : <component><TypeComponent><SubComponent>.  
 In a way, the methodology is similar to BEM, but does not follow the BEM specifications to the letter.  
-On the 'Who' page, I've included a print css file.  
+There is also a print css included.  
 
 See the website live at https://www.josdeberdt.be  
 Want to change something? Feel free to make a pull request.
 
-## How to copy this website?
+## How to copy/alter this website?
 - Git clone it
 - Open a terminal in the directory
-- command: npm run dev  
+- command: 
+  npm run dev  
+  gulp watch
   (For development)  
   npm run build   
   npm run start  
