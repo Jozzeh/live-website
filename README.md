@@ -19,10 +19,10 @@ Want to change something? Feel free to make a pull request.
 - Git clone it
 - Open a terminal in the directory
 - command: 
-  (For development)
+  (For development)  
   npm run dev  
-  gulp watch
-  (For production)
+  gulp watch  
+  (For production)  
   npm run build   
   npm run start  
   
