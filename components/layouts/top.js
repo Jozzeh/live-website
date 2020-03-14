@@ -31,13 +31,12 @@ const Top = () => (
     <meta name="theme-color" content="#ffffff"/>
 
     <link
-      async
       key="robotofont"
-      href="https://fonts.googleapis.com/css?family=Roboto:300, 400&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap"
       rel="stylesheet"
     />
     <link key="maincss" href="/assets/css/main.min.css" rel="stylesheet" />
-    <link key="printcss" media="print" async href="/assets/css/print.min.css" rel="stylesheet" />
+    <link key="printcss" media="print" href="/assets/css/print.min.css" rel="stylesheet" />
   </Head>
 );
 
