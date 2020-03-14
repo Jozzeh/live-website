@@ -49,14 +49,6 @@ export default function Post() {
     return (
       <>
         <Top />
-        <Head>
-          <link
-            async
-            key="blogcss"
-            href="/assets/css/blog.css"
-            rel="stylesheet"
-          />
-        </Head>
         <Flex extraClass="menuFullWidth">
           <Menu />
         </Flex>
