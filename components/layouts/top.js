@@ -36,8 +36,8 @@ const Top = () => (
       href="https://fonts.googleapis.com/css?family=Roboto:300, 400&display=swap"
       rel="stylesheet"
     />
-    <link key="resetcss" href="/assets/css/reset.css" rel="stylesheet" />
-    <link key="commoncss" href="/assets/css/common.css" rel="stylesheet" />
+    <link key="maincss" href="/assets/css/main.min.css" rel="stylesheet" />
+    <link key="printcss" media="print" async href="/assets/css/print.min.css" rel="stylesheet" />
   </Head>
 );
 

@@ -16,13 +16,6 @@ export default function Blog() {
     <>
       <Top />
       <Head>
-        <link
-          async
-          key="blogcss"
-          href="/assets/css/blog.css"
-          rel="stylesheet"
-        />
-
         <title>Articles from a front-end dev - Jos De Berdt</title>
         <meta
           name="description"

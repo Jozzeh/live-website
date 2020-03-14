@@ -12,7 +12,6 @@ const Index = () => (
   <>
     <Top />
     <Head>
-      <link async key="homecss" href="/assets/css/home.css" rel="stylesheet" />
       <script key="homejs" async src="/assets/js/home.js"></script>
 
       <title>Jos De Berdt - Front-end Developer</title>

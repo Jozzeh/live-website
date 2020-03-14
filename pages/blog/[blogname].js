@@ -25,13 +25,6 @@ export default function Post() {
       <>
         <Top />
         <Head>
-          <link
-            async
-            key="blogcss"
-            href="/assets/css/blog.css"
-            rel="stylesheet"
-          />
-
           <title>{articleData[0].meta.title}</title>
           <meta name="description" content={articleData[0].meta.description} />
         </Head>

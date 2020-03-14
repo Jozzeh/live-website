@@ -16,20 +16,6 @@ export default function About() {
     <>
       <Top />
       <Head>
-        <link
-          async
-          key="homecss"
-          href="/assets/css/about.css"
-          rel="stylesheet"
-        />
-
-        <link
-          async
-          key="printcss"
-          href="/assets/css/print.css"
-          rel="stylesheet"
-          media="print"
-        />
 
         <title>Professional career - Jos De Berdt</title>
         <meta
