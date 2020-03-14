@@ -38,6 +38,21 @@ const Top = () => (
     />
     <link key="maincss" href="/assets/css/main.min.css" rel="stylesheet" />
     <link key="printcss" media="print" async href="/assets/css/print.min.css" rel="stylesheet" />
+
+    <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.GA_TRACKING_ID}');
+          `,
+        }}
+      />
   </Head>
 );
 
