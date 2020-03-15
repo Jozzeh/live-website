@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "txt": "Started experimenting with agile in my family. It showed, everyone has and does chores...",
+      "tech": "Agile",
+      "pubdate": "2020-03-16"
+    },
+    {
       "txt": "Always ask yourself if a tech is necessairy... Even for something simple as a portfolio website.",
       "tech": "KISS methodology",
       "pubdate": "2020-03-14"
