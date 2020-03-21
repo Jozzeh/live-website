@@ -208,7 +208,7 @@
         },
         {
           "type":"paragraph",
-          "data": "* Before proceeding, I realise this might raise some questions, remarks or concerns with people. However, not that I am not talking about any programming language or technology in particular. Architectures can/should be language-agnostic."
+          "data": "* Before proceeding, I realise this might raise some questions, remarks or concerns with people. However, note that I am not talking about any programming language or technology in particular. Architectures can/should be language-agnostic."
         },
         {
           "type":"paragraph",
@@ -216,7 +216,7 @@
         },
         {
           "type":"paragraph",
-          "data": "Some developers will say that monoliths are good because they are not complex and this is true. However, when creating an architecture, it's the job of a developer to make sure the architecture is simple. In other words, the project does not dictate the complexity of the architecture."
+          "data": "Some developers will say that monoliths are good because they are not complex and this is true. However, when creating an architecture, it's the job of a developer to make sure the architecture is simple enough to understand yet powerfull enough to scale if necessairy. In other words, the project does not dictate the complexity of the architecture."
         },
         {
           "type":"paragraph",
