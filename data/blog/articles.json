@@ -181,6 +181,10 @@
           }
         },
         {
+          "type":"paragraph",
+          "data": "(If the definition of success for a website is visitor count, then I created a multisite system for a Belgian political party. The national website alone attracted more than 100 000 visitors/month.)"
+        },
+        {
           "type": "image-landscape",
           "data": {
             "link": "/assets/imgs/blog/projects/architecture-example.png",
