@@ -141,6 +141,11 @@
       "isSkill": true
     },
     {
+      "name": "RabbitMQ",
+      "proficiency": 70,
+      "isSkill": true
+    },
+    {
       "name": "GraphQL",
       "proficiency": 50,
       "isSkill": true
@@ -159,6 +164,11 @@
       "name": "NoSQL",
       "proficiency": 60,
       "isSkill": true
+    },
+    {
+      "name": "IoT",
+      "proficiency": 60,
+      "isSkill": false
     },
     {
       "name": "Front-end",
