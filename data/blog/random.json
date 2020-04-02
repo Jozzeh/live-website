@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "txt": "Amazing content & tutorials are being created in dire times...",
+      "tech": "Tutorials",
+      "pubdate": "2020-03-21"
+    },
+    {
       "txt": "I recommend Redux for state management. Why? You can use it with (almost) anything.",
       "tech": "Redux",
       "pubdate": "2020-03-21"
