@@ -9,7 +9,7 @@ const Aboutintro = () => (
         There is nothing greater than going from an idea to a good product... 
         And I feel lucky to be a part in that process.</p>
 
-      <p>In my spare time, I'm a father of 2 lovely daughters but also try to contribute to open source projects as much as possible. 
+      <p>In my spare time, I'm a father of 3 lovely daughters but also try to contribute to open source projects as much as possible. 
         When I see some new tech, my hands are itching to try and see what I can create with it.</p>
     </div>
   </div>
