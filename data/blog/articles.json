@@ -497,6 +497,13 @@
             "text": "Read the deployment docs",
             "link": "https://pm2.keymetrics.io/docs/usage/deployment/"
           }
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Have a look at one of my project using PM2 on Github",
+            "link": "https://github.com/Jozzeh/pm2-visualised"
+          }
         }
       ]
     }
