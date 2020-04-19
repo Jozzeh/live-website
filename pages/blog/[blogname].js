@@ -10,32 +10,25 @@ import LineText from "../../components/layouts/linetext";
 
 import Article from "../../components/blocks/blog/article";
 
-export default function Post() {
-  const router = useRouter();
-  const articleData = articleList.data.filter(article => {
-    if (article.handle === router.query.blogname) {
-      return article;
-    }
-  });
-
-  if (articleData[0]) {
+function Post({articleContent}) {
+  if (articleContent) {
     return (
       <>
         <Top />
         <Head>
-          <title>{articleData[0].meta.title}</title>
-          <meta name="description" content={articleData[0].meta.description} />
+          <title>{articleContent.meta.title}</title>
+          <meta name="description" content={articleContent.meta.description} />
         </Head>
         <Flex extraClass="menuFullWidth">
           <Menu />
         </Flex>
         <article id="content">
           <Flex extraContentClass="menuShiv">
-            <h1 className="articleHeading">{articleData[0].title}</h1>
-            <LineText txt={<time dateTime={articleData[0].pubdate}>{articleData[0].pubdate}</time>} />
+            <h1 className="articleHeading">{articleContent.title}</h1>
+            <LineText txt={<time dateTime={articleContent.pubdate}>{articleContent.pubdate}</time>} />
           </Flex>
 
-          <Article articleData={articleData} />
+          <Article articleData={articleContent} />
         </article>
 
         <Flex>
@@ -57,3 +50,25 @@ export default function Post() {
     );
   }
 }
+
+Post.getInitialProps = async (ctx) => {
+  const articleData = articleList.data.filter(article => {
+    if (article.handle === ctx.query.blogname) {
+      return article;
+    }
+  });
+ 
+  if (!articleData[0] || typeof articleData[0] === 'undefined') {
+    return {
+      error: {
+        statusCode: 404
+      }
+    };
+  }
+ 
+  return {
+    articleContent: articleData[0],
+  };
+};
+
+export default Post;

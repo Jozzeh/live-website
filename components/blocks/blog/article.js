@@ -1,7 +1,7 @@
 import Flex from "../../layouts/flex";
 
 const Article = props => {
-  const articleData = props.articleData[0].article;
+  const articleData = props.articleData.article;
   return (
     <>
       {articleData.map((piece, i) => {
