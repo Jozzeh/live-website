@@ -20,10 +20,10 @@ const Homeintro = () => (
           <ul>
             <li>Native JavaScript</li>
             <li>EcmaScript (ES6)</li>
-            <li>NextJs</li>
             <li>React</li>
+            <li>Svelte</li>
             <li>Redux</li>
-            <li>Jest</li>
+            <li>Micro front-ends</li>
             <li>Service Workers</li>
           </ul>
         </div>
