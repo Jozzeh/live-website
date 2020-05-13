@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import articleList from "../../data/blog/articles";
 
 import Head from "next/head";
@@ -8,8 +9,6 @@ import Footer from "../../components/layouts/footer";
 import LineText from "../../components/layouts/linetext";
 
 import Article from "../../components/blocks/blog/article";
-
-import ErrorPage from 'next/error';
 
 function Post({articleContent}) {
   if (articleContent) {
@@ -60,7 +59,11 @@ Post.getInitialProps = async (ctx) => {
   });
  
   if (!articleData[0] || typeof articleData[0] === 'undefined') {
-    return <ErrorPage statusCode='404' />;
+    return {
+      error: {
+        statusCode: 404
+      }
+    };
   }
  
   return {

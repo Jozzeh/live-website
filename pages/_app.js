@@ -1,4 +1,4 @@
-// import withError from 'next-with-error';
+import withError from 'next-with-error';
 import App from 'next/app';
  
 class MyApp extends App {
@@ -8,5 +8,4 @@ class MyApp extends App {
   }
 }
  
-// export default withEror()(MyApp);
-export default MyApp;
+export default withError()(MyApp);
