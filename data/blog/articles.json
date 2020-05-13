@@ -100,7 +100,14 @@
       "article": [
         {
           "type":"paragraph",
-          "data": "In my experience as webdeveloper, I created and co-created a lot of projects. Some were more challenging than others."
+          "data": "In my experience as webdeveloper, I created and co-created a lot of projects. Some were more challenging than others, but the challenge & learning experience makes it fun... Did you know, I even recreated part of this website in Svelte:"
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Have a look at this website made with Svelte",
+            "link": "https://svelte.josdeberdt.be"
+          }
         },
         {
           "type":"paragraph",
