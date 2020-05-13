@@ -14,13 +14,16 @@ const Homeoutro = () => (
         myself in the reasoning behind it. I believe CSS is fantastic language.
         <br />
         Call me old school but I like to seperate lay-out from behavior...
-        <br />
-        <br />
+        </p>
+
+        <p>
         The reason I'm still in development after all these years?
         <strong>Adaptability</strong>
         <br />
         The development industry is moving at a frantic pace, and developers
         need to keep on learning & adapting... including myself.
+        <br/>
+        The fast pace is proof of how the technology is still in its infancy. But it (and I) is growing.
       </p>
     </div>
   </div>
