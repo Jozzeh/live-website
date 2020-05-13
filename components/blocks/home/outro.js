@@ -21,10 +21,8 @@ const Homeoutro = () => (
         <strong>Adaptability</strong>
         <br />
         The development industry is moving at a frantic pace, and developers
-        need to keep on learning & adapting... including myself.
-        <br />
-        The fast pace is proof of how the technology is still in its infancy.
-        But it (and I) is growing.
+        need to keep on learning & adapting... The fast pace is proof of how the
+        technology is still in its infancy. But it is growing and I happy to be part of that.
       </p>
     </div>
   </div>
