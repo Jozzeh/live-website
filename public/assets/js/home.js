@@ -1,4 +1,4 @@
-window.onload = function() {
+function instanceHero() {
   let hero = document.getElementById("heroContainer");
   if(typeof hero !== "undefined" && hero !== null){
     //hero exists
@@ -14,4 +14,9 @@ window.onload = function() {
       }
     }
   }
+}
+
+window.onload = function() {
+  instanceHero();
 };
+

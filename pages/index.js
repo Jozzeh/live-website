@@ -7,8 +7,15 @@ import Hero from "../components/blocks/home/hero";
 import HomePerson from "../components/blocks/home/person";
 import Homeintro from "../components/blocks/home/intro";
 import Homeoutro from "../components/blocks/home/outro";
+import { useEffect } from "react";
 
-const Index = () => (
+const Index = () => {
+  useEffect(() => {
+    if(instanceHero) {
+      instanceHero();
+    }
+  });
+  return (
   <>
     <Top />
     <Head>
@@ -34,6 +41,6 @@ const Index = () => (
       <Footer />
     </Flex>
   </>
-);
+)};
 
 export default Index;
