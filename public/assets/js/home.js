@@ -5,7 +5,7 @@ window.onload = function() {
     window.onscroll = function() {
       let currentScrollPerc = ((window.scrollY / hero.offsetHeight * 100) / 2);
       if(currentScrollPerc < 10){
-        if(currentScrollPerc < 0.10){
+        if(currentScrollPerc > 10){
           currentScrollPerc = 0;
         }
         let shiftLeft = currentScrollPerc + "%";
