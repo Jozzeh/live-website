@@ -1,7 +1,12 @@
 {
   "data": [
     {
-      "txt": "I run long distances to clear my head and to think about complex dev issues.",
+      "txt": "The Podium library is a very easy to understand means towards micro frontends.",
+      "tech": "Micro frontends",
+      "pubdate": "2020-05-07"
+    },
+    {
+      "txt": "I run long distances to clear my head and then look at complex issues with fresh eyes.",
       "tech": "Running",
       "pubdate": "2020-04-30"
     },
