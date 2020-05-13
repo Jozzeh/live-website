@@ -19,7 +19,7 @@ export default function About() {
         <title>Professional career - Jos De Berdt</title>
         <meta
           name="description"
-          content="Read about the career of Jos De Berdt and how he grew from
+          content="Read about the career of Jos De Berdt and how he grew from 
           webdeveloper to full stack to front-end developer & architect."
         />
       </Head>
