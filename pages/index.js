@@ -11,7 +11,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    if(instanceHero) {
+    if(typeof instanceHero !== "undefined") {
       instanceHero();
     }
   });
