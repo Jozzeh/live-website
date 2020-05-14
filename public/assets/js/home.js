@@ -17,6 +17,8 @@ function instanceHero() {
 }
 
 window.onload = function() {
-  instanceHero();
+  if(instanceHero) {
+    instanceHero();
+  }
 };
 
