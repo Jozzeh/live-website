@@ -19,7 +19,7 @@ const Index = () => {
   <>
     <Top />
     <Head>
-      <script key="homejs" async src="/assets/js/home.js"></script>
+      <script key="homejs" async src="/assets/js/home.js" defer></script>
 
       <title>Jos De Berdt - Front-end Developer</title>
       <meta name="description" content="The portfolio website (and random thoughts) of Jos De Berdt, a Belgian front-end webdeveloper."/>
