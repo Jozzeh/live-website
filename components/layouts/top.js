@@ -30,11 +30,6 @@ const Top = () => (
     <meta name="msapplication-TileImage" content="/assets/imgs/icons/ms-icon-144x144.png"/>
     <meta name="theme-color" content="#ffffff"/>
 
-    <link
-      key="robotofont"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap"
-      rel="stylesheet"
-    />
     <link key="maincss" href="/assets/css/main.min.css" rel="stylesheet" />
     <link key="printcss" media="print" href="/assets/css/print.min.css" rel="stylesheet" />
   </Head>
