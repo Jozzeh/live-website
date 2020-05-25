@@ -20,6 +20,15 @@ export default function Blog() {
           name="description"
           content="The random thoughts and articles from Jos De Berdt, a front-end webdeveloper with full stack knowledge."
         />
+
+        <meta
+          property="og:title"
+          content="Articles from a front-end dev - Jos De Berdt"
+        />
+        <meta
+          property="og:description"
+          content="The random thoughts and articles from Jos De Berdt, a front-end webdeveloper with full stack knowledge."
+        />
       </Head>
       <Flex extraClass="menuFullWidth">
         <Menu />
@@ -28,7 +37,7 @@ export default function Blog() {
       <div id="content" className="greyWrapper greyWrapperNoBottom menuShiv">
         <Flex>
           <h1 id="blogIntroHeading">Article archive</h1>
-          <LineText extraMargin={1} txt="in front-end experience"/>
+          <LineText extraMargin={1} txt="in front-end experience" />
           <Featured />
         </Flex>
       </div>

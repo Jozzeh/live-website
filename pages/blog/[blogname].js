@@ -18,6 +18,12 @@ function Post({articleContent}) {
         <Head>
           <title>{articleContent.meta.title}</title>
           <meta name="description" content={articleContent.meta.description} />
+        
+          <meta property="og:title" content={articleContent.meta.title} />
+        <meta
+          property="og:description"
+          content={articleContent.meta.description}
+        />
         </Head>
         <Flex extraClass="menuFullWidth">
           <Menu />

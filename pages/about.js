@@ -16,9 +16,16 @@ export default function About() {
     <>
       <Top />
       <Head>
-        <title>Professional career - Jos De Berdt</title>
+        <title>Development career - Jos De Berdt</title>
         <meta
           name="description"
+          content="Read about the career of Jos De Berdt and how he grew from 
+          webdeveloper to full stack to front-end developer & architect."
+        />
+
+        <meta property="og:title" content="Development career - Jos De Berdt" />
+        <meta
+          property="og:description"
           content="Read about the career of Jos De Berdt and how he grew from 
           webdeveloper to full stack to front-end developer & architect."
         />
