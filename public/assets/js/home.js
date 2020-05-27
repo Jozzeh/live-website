@@ -4,8 +4,8 @@ function instanceHero() {
     //hero exists
     window.onscroll = function() {
       let currentScrollPerc = ((window.scrollY / hero.offsetHeight * 100) / 2);
-      if(currentScrollPerc < 10){
-        if(currentScrollPerc > 10){
+      if(currentScrollPerc < 11){
+        if(currentScrollPerc > 11){
           currentScrollPerc = 0;
         }
         let shiftLeft = currentScrollPerc + "%";
