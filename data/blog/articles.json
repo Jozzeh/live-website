@@ -317,7 +317,7 @@
         },
         {
           "type":"quote",
-          "data": "Hi, we are a dynamic, fun company looking for a NodeJS developer. Bonus points are: docker, kubernetes, express or some other framework, gulp, grunt, webpack, lodash, material ui, backbone, prototype.js, moment.js, vagrant, pm2, react, vue of angular, terraform, AWS or Azure, CI/CD, github or gitlab, ..."
+          "data": "Hi, we are a fun company possibly with smoe form of ninjas & we're looking for a NodeJS developer. Bonus points are: Docker, Kubernetes, Express or some other back-end framework, Python knowledge, Gulp, Grunt, Webpack, Lodash, Material ui, BackboneJS, prototype.js, moment.js, Vagrant, pm2, React, Vue or Angular, Rerraform, AWS or Azure, CI/CD, github or gitlab, ..."
         },
         {
           "type":"paragraph",
