@@ -204,16 +204,17 @@
         },
         {
           "type":"paragraph",
-          "data": "I've worked with some architectures and created my own architectures. It has given me a ton of insight on how to approach a project and evaluate it's size. Here are some architectures I know:"
+          "data": "I've worked with some architectures and created my own architectures. It has given me a ton of insight on how to approach a project, evaluate the scale and future scaling. Here are some architectures I know:"
         },
         {
           "type":"unordened-list",
           "data": [
             "Monolith",
+            "Micro Frontends",
+            "JAM / API driven",
             "Service based",
             "Microservices",
             "Event driven",
-            "JAM / API driven",
             "A mix of some of the above"
           ]
         },
