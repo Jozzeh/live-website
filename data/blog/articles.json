@@ -313,11 +313,11 @@
         },
         {
           "type":"paragraph",
-          "data": "A overcomplicated project is not just bad for developers. The HR departement is also lost when hiring new developers. The consequence:"
+          "data": "A overcomplicated project is not just bad for developers. The HR departement is also lost when hiring new developers. An example:"
         },
         {
           "type":"quote",
-          "data": "Hi, we are a fun company possibly with smoe form of ninjas & we're looking for a NodeJS developer. Bonus points are: Docker, Kubernetes, Express or some other back-end framework, Python knowledge, Gulp, Grunt, Webpack, Lodash, Material ui, BackboneJS, prototype.js, moment.js, Vagrant, pm2, React, Vue or Angular, Rerraform, AWS or Azure, CI/CD, github or gitlab, ..."
+          "data": "Hi, we are a fun company possibly with some form of ninjas & we're looking for a NodeJS developer. Bonus points are: Docker, Kubernetes, Express or some other back-end framework, Python knowledge, Gulp, Grunt, Webpack, Lodash, Material ui, BackboneJS, prototype.js, moment.js, Vagrant, Legacy PHP, pm2, React, Vue and/or Angular, ES6 JavaScript, Expert CSS, JAM Stack, Architectures, Design patterns, Terraform, AWS or Azure, CI/CD, DevOps, Github or Gitlab, ..."
         },
         {
           "type":"paragraph",
