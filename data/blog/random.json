@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "txt": "The front-end industry is leaning more towards JavaScript frameworks, but I really want to learn more CSS.",
+      "tech": "CSS",
+      "pubdate": "2020-06-08"
+    },
+    {
       "txt": "I should have started writing a long time ago about my experiences in development.",
       "tech": "Tech writing",
       "pubdate": "2020-06-01"
