@@ -32,7 +32,7 @@
       "year": "2017-2019",
       "title": "Stack Architect & Team Lead",
       "company": "Meditech",
-      "responsibilities": "I helped to create Meditech products together with a team of 4 developers. I introduced the Agile mindset in the team. Near the end I had redrawn the entire stack towards a service-based architecture. The architecture was loosely coupled and had the ability to serve data 40 times faster and was 200 times more resilient (in comparison to the previous monolith).",
+      "responsibilities": "I helped to create Meditech products together with a team of 4 developers. I introduced the Agile mindset in the team. Near the end I had redrawn the entire stack towards a service-based architecture. The architecture was loosely coupled and had the ability to serve data 40 times faster and was 200 times more resilient (without scaling, in comparison to the previous monolithic architecture).",
       "tech": [
         "HTML",
         "CSS",
@@ -104,7 +104,7 @@
       "year": "2009-2010",
       "title": "Drupal webdeveloper",
       "company": "XIO",
-      "responsibilities": "Biggest project was a multi-site system for a political party. This accumulated to around 300 websites and 150000 views/month. I did theming, configuration, custom module coding & slicing of design",
+      "responsibilities": "Biggest project was a multi-site system for a political party. This multisite system accumulated to around 300 websites and more than 150000 views/month for the main 'national' website. I did theming, configuration, custom module coding & slicing of design",
       "tech": [
         "HTML",
         "CSS",
