@@ -131,10 +131,8 @@
   padding: 5px 0;
 }
 .articleImageFlex{
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   width: 100%;
-  justify-content: center;
   margin-top: 25px;
 }
 .articleImageFlexed{
@@ -186,6 +184,14 @@
   }
   .articleImagePortrait {
     max-width: 600px;
+  }
+
+  .articleImageFlex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
   }
 
   .articleImageFlexed{
