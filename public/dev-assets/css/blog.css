@@ -140,6 +140,7 @@
 .articleImageFlexed{
   margin-bottom: 15px;
   max-width: 100%;
+  height: auto;
 }
 
 .articleUnordenedList ul{
