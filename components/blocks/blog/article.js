@@ -1,6 +1,6 @@
 import Flex from "../../layouts/flex";
 
-const Article = props => {
+const Article = (props) => {
   const articleData = props.articleData.article;
   return (
     <>
@@ -75,12 +75,14 @@ const Article = props => {
               <div className="articleImageFlex">
                 {piece.data.imgs.map((image, j) => {
                   return (
-                    <img
-                      key={"-" + j}
-                      className="articleImageFlexed"
-                      src={image}
-                      alt={piece.data.alt}
-                    />
+                    <div className="articleImageWrapper">
+                      <img
+                        key={"-" + j}
+                        className="articleImageFlexed"
+                        src={image}
+                        alt={piece.data.alt}
+                      />
+                    </div>
                   );
                 })}
               </div>

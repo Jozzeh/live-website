@@ -189,15 +189,17 @@
   .articleImageFlex{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
     margin-top: 25px;
   }
 
+  .articleImageWrapper{
+    width: calc(50% - 15px);
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
   .articleImageFlexed{
-    margin-right: 15px;
-    margin-bottom: 15px;
-    max-width: calc(50% - 15px);
+    
     width: auto;
   }
 }
