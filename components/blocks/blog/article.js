@@ -48,11 +48,13 @@ const Article = (props) => {
           return (
             <Flex key={i} extraContentClass="smallFlexContent">
               <div className="articleImageWrap">
-                <img
-                  className="articleImagePortrait"
-                  src={piece.data.link}
-                  alt={piece.data.alt}
-                />
+                <div className="articleImageBox">
+                  <img
+                    className="articleImagePortrait"
+                    src={piece.data.link}
+                    alt={piece.data.alt}
+                  />
+                </div>
                 <div className="articleImageText">{piece.data.alt}</div>
               </div>
             </Flex>
@@ -76,12 +78,14 @@ const Article = (props) => {
                 {piece.data.imgs.map((image, j) => {
                   return (
                     <div className="articleImageWrapper">
+                      <div className="articleImageBox articleImageBoxFlexed">
                       <img
                         key={"-" + j}
                         className="articleImageFlexed"
                         src={image}
                         alt={piece.data.alt}
                       />
+                      </div>
                     </div>
                   );
                 })}
@@ -93,11 +97,13 @@ const Article = (props) => {
           return (
             <Flex key={i}>
               <div className="articleImageWrap">
+              <div className="articleImageBox">
                 <img
                   className="articleImageLandscape"
                   src={piece.data.link}
                   alt={piece.data.alt}
                 />
+                </div>
                 <div className="articleImageText">{piece.data.alt}</div>
               </div>
             </Flex>
