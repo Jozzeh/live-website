@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "name": "JavaScript",
-      "proficiency": 90,
-      "isSkill": true
-    },
-    {
       "name": "HTML",
       "proficiency": 90,
       "isSkill": true
     },
     {
       "name": "CSS",
+      "proficiency": 90,
+      "isSkill": true
+    },
+    {
+      "name": "JavaScript",
       "proficiency": 90,
       "isSkill": true
     },
@@ -27,7 +27,7 @@
     },
     {
       "name": "Less",
-      "proficiency": 50,
+      "proficiency": 60,
       "isSkill": true
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "React",
-      "proficiency": 70,
+      "proficiency": 80,
       "isSkill": true
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "name": "Jest",
-      "proficiency": 60,
+      "proficiency": 80,
       "isSkill": true
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "name": "On-page SEO",
-      "proficiency": 90,
+      "proficiency": 98,
       "isSkill": true
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "name": "Nginx",
-      "proficiency": 70,
+      "proficiency": 75,
       "isSkill": true
     },
     {
@@ -102,12 +102,12 @@
     },
     {
       "name": "DNS",
-      "proficiency": 70,
+      "proficiency": 80,
       "isSkill": true
     },
     {
       "name": "NodeJS",
-      "proficiency": 80,
+      "proficiency": 70,
       "isSkill": true
     },
     {
@@ -117,12 +117,12 @@
     },
     {
       "name": "AdonisJS",
-      "proficiency": 70,
+      "proficiency": 60,
       "isSkill": true
     },
     {
       "name": "NextJS",
-      "proficiency": 70,
+      "proficiency": 75,
       "isSkill": true
     },
     {
@@ -171,7 +171,7 @@
       "isSkill": false
     },
     {
-      "name": "Front-end",
+      "name": "Front-end developer",
       "proficiency": 90,
       "isSkill": false
     },
