@@ -105,7 +105,14 @@
         {
           "type": "link",
           "data": {
-            "text": "Have a look at this website made with Svelte",
+            "text": "Click here to see this website made with Svelte",
+            "link": "https://svelte.josdeberdt.be"
+          }
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "I have also written some articles on Medium about javascript, NodeJS, Micro Frontends, ...",
             "link": "https://svelte.josdeberdt.be"
           }
         },
