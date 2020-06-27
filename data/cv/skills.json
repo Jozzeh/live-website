@@ -167,8 +167,8 @@
     },
     {
       "name": "IoT",
-      "proficiency": 60,
-      "isSkill": false
+      "proficiency": 50,
+      "isSkill": true
     },
     {
       "name": "Front-end developer",
