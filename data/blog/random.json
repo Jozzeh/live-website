@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "txt": "Starting a project? Document it... Everything.",
+      "tech": "Documentation",
+      "pubdate": "2020-07-05"
+    },
+    {
+      "txt": "What goes up, must come down. In running... what goes down, must come up.",
+      "tech": "Running",
+      "pubdate": "2020-06-24"
+    },
+    {
       "txt": "Writing tests is important, but the tests need to have a purpose and the assertions should make sense.",
       "tech": "Testing",
       "pubdate": "2020-06-14"
