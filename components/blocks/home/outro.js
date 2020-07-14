@@ -22,7 +22,7 @@ const Homeoutro = () => (
         <br />
         The development industry is moving at a frantic pace, and developers
         need to keep on learning & adapting... The fast pace is proof of how the
-        technology is still in its infancy. But it is growing and I happy to be part of that.
+        technology is still in its infancy. I'm happy to be growing with technology.
       </p>
     </div>
   </div>
