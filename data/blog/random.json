@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "txt": "Try to steer away from 'vh' for mobile development. iOS and Android have diffirent implementations.",
+      "tech": "Mobile CSS",
+      "pubdate": "2020-08-25"
+    },
+    {
+      "txt": "Just running won't do. Cross training is really recommended.",
+      "tech": "Running",
+      "pubdate": "2020-08-05"
+    },
+    {
       "txt": "Starting a project? Document it... Everything.",
       "tech": "Documentation",
       "pubdate": "2020-07-05"
