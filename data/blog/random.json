@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "txt": "Amazed with the joy I have working in Flutter. IDE integration, performance, learning curve... It is all excellent.",
+      "tech": "Mobile apps",
+      "pubdate": "2020-09-12"
+    },
+    {
+      "txt": "The marathon distance is going to hurt... You train to make it manageable.",
+      "tech": "Running",
+      "pubdate": "2020-09-08"
+    },
+    {
       "txt": "Try to steer away from 'vh' for mobile development. iOS and Android have diffirent implementations.",
       "tech": "Mobile CSS",
       "pubdate": "2020-08-25"
