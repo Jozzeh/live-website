@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "gulp && next build",
+    "build": "gulp && next build && next export -o _static",
     "start": "next start",
-    "export": "next export"
+    "export": "next export && next export -o _static",
+    "serve": "serve out --listen 5001"
   },
   "keywords": [],
   "author": "",

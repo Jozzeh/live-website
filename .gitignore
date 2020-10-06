@@ -13,6 +13,7 @@
 
 # export
 /out
+/_static
 
 # misc
 .DS_Store
