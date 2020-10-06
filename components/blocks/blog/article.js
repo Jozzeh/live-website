@@ -77,10 +77,9 @@ const Article = (props) => {
               <div className="articleImageFlex">
                 {piece.data.imgs.map((image, j) => {
                   return (
-                    <div className="articleImageWrapper">
+                    <div key={"-" + j} className="articleImageWrapper">
                       <div className="articleImageBox articleImageBoxFlexed">
                       <img
-                        key={"-" + j}
                         className="articleImageFlexed"
                         src={image}
                         alt={piece.data.alt}
