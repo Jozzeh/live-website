@@ -1,6 +1,7 @@
 const withOffline = require('next-offline');
  
 module.exports = withOffline({
+  distDir: '_static',
   workboxOpts: {
     runtimeCaching: [
       {
