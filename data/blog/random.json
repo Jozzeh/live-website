@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "txt": "Do not assume 3rd party libraries are going to be micro frontends ready.",
+      "tech": "Micro frontends",
+      "pubdate": "2020-11-19"
+    },
+    {
       "txt": "Using a password manager should be much more important than a mandatory password rotation cycle.",
       "tech": "Tech & IT",
       "pubdate": "2020-09-23"
