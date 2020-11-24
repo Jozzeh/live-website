@@ -70,8 +70,6 @@ blockquote {
   justify-content: center;
   width: 100vw;
   flex-wrap: wrap;
-  content-visibility: auto;
-  contain-intrinsic-size: "1px 500px";
 }
 .flexContainerPerc {
   width: 100%;
