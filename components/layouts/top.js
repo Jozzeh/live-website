@@ -7,7 +7,7 @@ const Top = () => (
       content="initial-scale=1.0, width=device-width"
       key="viewport"
     />
-    <meta key="httpEquiv" http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta key="httpEquiv" httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta key="author" name="author" content="Jos De Berdt" />
     <meta key="robots" name="robots" content="index, follow" />
     <meta key="googlebot" name="googlebot" content="noodp" />

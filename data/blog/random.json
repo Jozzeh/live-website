@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "txt": "The more opinionated, the more attention. What happened to KISS?",
+      "tech": "Tech social media",
+      "pubdate": "2021-01-30"
+    },
+    {
       "txt": "New year, new goals: Learn TypeScript a bit better and create a type-coercion library.",
       "tech": "Typed languages",
       "pubdate": "2021-01-10"
