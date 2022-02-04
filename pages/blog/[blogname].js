@@ -64,56 +64,8 @@ function Post(props) {
   }
 }
 
-// Post.getInitialProps = async (ctx) => {
-//   const articleData = articleList.data.filter(article => {
-//     if (article.handle === ctx.query.blogname) {
-//       return article;
-//     }
-//   });
-
-//   if (!articleData[0] || typeof articleData[0] === 'undefined') {
-//     return {
-//       error: {
-//         statusCode: 404
-//       }
-//     };
-//   }
-
-//   return {
-//     articleContent: articleData[0],
-//   };
-// };
-
-// This function gets called at build time on server-side.
-// It won't be called on client-side, so you can even do
-// direct database queries. See the "Technical details" section.
-// export async function getServerSideProps(context) {
-//   // Call an external API endpoint to get posts.
-//   // You can use any data fetching library
-//   const res = await fetch(
-//     process.env.BASE_URL +
-//       "/data/blog/articles.json"
-//   );
-//   const articleList = await res.json();
-
-//   const articleData = articleList.data.filter((article) => {
-//     if (article.handle === context.query.blogname) {
-//       return article;
-//     }
-//   });
-
-//   // By returning { props: posts }, the Blog component
-//   // will receive `posts` as a prop at build time
-//   return {
-//     props: {
-//       articleContent: articleData[0],
-//     },
-//   };
-// }
-
 export async function getStaticPaths() {
   const paths = Articles.data.map(page => {
-    // let blogname = page.handle;
     const blogname = page.handle;
     return {params: {blogname}};
   });
@@ -121,7 +73,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({params}) {
-  // const currentPath = `/${params.slug.join('/')}`;
   var lastItem = params.blogname;
   const page = ArticleDetails.data.find(page => page.handle === lastItem) || {notfound: true};
   return {props: {page}};
