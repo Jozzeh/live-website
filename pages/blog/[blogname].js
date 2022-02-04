@@ -10,7 +10,8 @@ import Articles from "../../data/blog/list.json";
 import ArticleDetails from "../../data/blog/articles.json";
 
 
-function Post({ articleContent }) {
+function Post(props) {
+  const articleContent = props.page;
   if (articleContent) {
     return (
       <>
@@ -121,7 +122,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}) {
   // const currentPath = `/${params.slug.join('/')}`;
-  var lastItem = params;
+  var lastItem = params.blogname;
   const page = ArticleDetails.data.find(page => page.handle === lastItem) || {notfound: true};
   return {props: {page}};
 }
